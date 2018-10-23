@@ -135,7 +135,7 @@ function CSSTextGenerator(colors) {
 
     --ion-color-light: ${light};
     --ion-color-light-rgb: ${Color(light).rgb().array().join(",")};
-    --ion-color-light-contrast: $${contrast(light)};
+    --ion-color-light-contrast: ${contrast(light)};
     --ion-color-light-contrast-rgb: ${contrast(light).rgb().array().join(",")};;
     --ion-color-light-shade: ${Color(light).darken(shadeRatio)};
     --ion-color-light-tint: ${Color(light).lighten(tintRatio)};`;
